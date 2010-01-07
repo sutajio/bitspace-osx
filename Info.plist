@@ -24,5 +24,11 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+	<key>SUFeedURL</key>
+	<string>http://bitspace.at/clients/bitspace-osx/changelog.rss</string>
+	<key>SUEnableAutomaticChecks</key>
+	<string>true</string>
 </dict>
 </plist>
