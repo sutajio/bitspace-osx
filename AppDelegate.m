@@ -27,4 +27,13 @@
 	[mainFrame loadRequest: request];
 }
 
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication
+					hasVisibleWindows:(BOOL)flag
+{
+	if( !flag )
+		[mainWindow makeKeyAndOrderFront:nil];
+	
+	return YES;
+}
+
 @end

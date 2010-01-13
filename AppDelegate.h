@@ -10,6 +10,7 @@
 
 @class WebView;
 @interface AppDelegate : NSObject {
+	IBOutlet NSWindow *mainWindow;
 	IBOutlet WebView *webView;
 }
 
