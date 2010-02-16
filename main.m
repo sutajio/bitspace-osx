@@ -3,7 +3,7 @@
 //  bitspace-osx
 //
 //  Created by Niklas Holmgren on 2009-12-28.
-//  Copyright Koneko Collective Ltd 2009. All rights reserved.
+//  Copyright Sutajio HB 2009. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

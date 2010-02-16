@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Bitspace.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.koneko.${PRODUCT_NAME:identifier}</string>
+	<string>com.sutajio.${PRODUCT_NAME:identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

@@ -3,7 +3,7 @@
 //  bitspace-osx
 //
 //  Created by Niklas Holmgren on 2010-01-13.
-//  Copyright 2010 Koneko Collective Ltd. All rights reserved.
+//  Copyright 2010 Sutajio HB. All rights reserved.
 //
 
 #import "WindowDelegate.h"
