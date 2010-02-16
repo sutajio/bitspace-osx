@@ -79,9 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				8543B86610EA37BB00EF5A27 /* AppDelegate.h */,
+				8543B86710EA37BB00EF5A27 /* AppDelegate.m */,
 				85971B31112B0CC700656F2C /* BitspaceApplication.h */,
 				85971B32112B0CC700656F2C /* BitspaceApplication.m */,
-				8543B86710EA37BB00EF5A27 /* AppDelegate.m */,
 				850DEB9610FDFFA0004CE08A /* WindowDelegate.h */,
 				850DEB9710FDFFA0004CE08A /* WindowDelegate.m */,
 				850DEBA810FF697F004CE08A /* WebViewDelegate.h */,

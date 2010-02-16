@@ -13,5 +13,7 @@
 	IBOutlet NSWindow *mainWindow;
 	IBOutlet WebView *webView;
 }
-
+- (IBAction)togglePlayback:(id)sender;
+- (IBAction)nextTrack:(id)sender;
+- (IBAction)previousTrack:(id)sender;
 @end

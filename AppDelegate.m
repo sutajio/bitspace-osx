@@ -37,4 +37,19 @@
 	return YES;
 }
 
+- (void)togglePlayback:(id)sender;
+{
+	[webView stringByEvaluatingJavaScriptFromString: @"$('#player').trigger('toggle');"];
+}
+
+- (void)nextTrack:(id)sender;
+{
+	[webView stringByEvaluatingJavaScriptFromString: @"$('#player').trigger('next');"];
+}
+
+- (void)previousTrack:(id)sender;
+{
+	[webView stringByEvaluatingJavaScriptFromString: @"$('#player').trigger('prev');"];
+}
+
 @end
