@@ -17,6 +17,7 @@
 		8543B93610EF7D7000EF5A27 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8543B92210EF7D0B00EF5A27 /* Sparkle.framework */; };
 		8543B93D10EF8C7D00EF5A27 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8543B93C10EF8C7D00EF5A27 /* dsa_pub.pem */; };
 		85971B33112B0CC700656F2C /* BitspaceApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971B32112B0CC700656F2C /* BitspaceApplication.m */; };
+		85971C1C1132FC5600656F2C /* WebViewPolicyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C1B1132FC5600656F2C /* WebViewPolicyDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -57,6 +58,8 @@
 		8543B93C10EF8C7D00EF5A27 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		85971B31112B0CC700656F2C /* BitspaceApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitspaceApplication.h; sourceTree = "<group>"; };
 		85971B32112B0CC700656F2C /* BitspaceApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitspaceApplication.m; sourceTree = "<group>"; };
+		85971C1A1132FC5600656F2C /* WebViewPolicyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewPolicyDelegate.h; sourceTree = "<group>"; };
+		85971C1B1132FC5600656F2C /* WebViewPolicyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewPolicyDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Bitspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +89,8 @@
 				850DEB9710FDFFA0004CE08A /* WindowDelegate.m */,
 				850DEBA810FF697F004CE08A /* WebViewDelegate.h */,
 				850DEBA910FF697F004CE08A /* WebViewDelegate.m */,
+				85971C1A1132FC5600656F2C /* WebViewPolicyDelegate.h */,
+				85971C1B1132FC5600656F2C /* WebViewPolicyDelegate.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 				850DEB9810FDFFA0004CE08A /* WindowDelegate.m in Sources */,
 				850DEBAA10FF697F004CE08A /* WebViewDelegate.m in Sources */,
 				85971B33112B0CC700656F2C /* BitspaceApplication.m in Sources */,
+				85971C1C1132FC5600656F2C /* WebViewPolicyDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
