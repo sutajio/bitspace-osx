@@ -9,11 +9,16 @@
 #import <Cocoa/Cocoa.h>
 
 @class WebView;
+@class RemoteControl;
+
 @interface AppDelegate : NSObject {
 	IBOutlet NSWindow *mainWindow;
 	IBOutlet WebView *webView;
+	RemoteControl* remoteControl;
 }
 - (IBAction)togglePlayback:(id)sender;
 - (IBAction)nextTrack:(id)sender;
 - (IBAction)previousTrack:(id)sender;
+- (RemoteControl*) remoteControl;
+- (void) setRemoteControl: (RemoteControl*) newControl;
 @end

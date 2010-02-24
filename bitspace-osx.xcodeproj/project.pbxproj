@@ -18,6 +18,14 @@
 		8543B93D10EF8C7D00EF5A27 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8543B93C10EF8C7D00EF5A27 /* dsa_pub.pem */; };
 		85971B33112B0CC700656F2C /* BitspaceApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971B32112B0CC700656F2C /* BitspaceApplication.m */; };
 		85971C1C1132FC5600656F2C /* WebViewPolicyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C1B1132FC5600656F2C /* WebViewPolicyDelegate.m */; };
+		85971C4C1135713E00656F2C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85971C491135713E00656F2C /* Carbon.framework */; };
+		85971C4D1135713E00656F2C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85971C4A1135713E00656F2C /* IOKit.framework */; };
+		85971C4E1135713E00656F2C /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85971C4B1135713E00656F2C /* System.framework */; };
+		85971C591135716700656F2C /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C521135716700656F2C /* RemoteControl.m */; };
+		85971C5A1135716700656F2C /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C541135716700656F2C /* HIDRemoteControlDevice.m */; };
+		85971C5B1135716700656F2C /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C561135716700656F2C /* AppleRemote.m */; };
+		85971C9B1135B13100656F2C /* ANSystemSoundWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C991135B13100656F2C /* ANSystemSoundWrapper.m */; };
+		85971CA41135B1BB00656F2C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85971CA31135B1BB00656F2C /* CoreAudio.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -60,6 +68,18 @@
 		85971B32112B0CC700656F2C /* BitspaceApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitspaceApplication.m; sourceTree = "<group>"; };
 		85971C1A1132FC5600656F2C /* WebViewPolicyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewPolicyDelegate.h; sourceTree = "<group>"; };
 		85971C1B1132FC5600656F2C /* WebViewPolicyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewPolicyDelegate.m; sourceTree = "<group>"; };
+		85971C491135713E00656F2C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		85971C4A1135713E00656F2C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		85971C4B1135713E00656F2C /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = /System/Library/Frameworks/System.framework; sourceTree = "<absolute>"; };
+		85971C511135716700656F2C /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		85971C521135716700656F2C /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		85971C531135716700656F2C /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		85971C541135716700656F2C /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		85971C551135716700656F2C /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		85971C561135716700656F2C /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		85971C991135B13100656F2C /* ANSystemSoundWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSystemSoundWrapper.m; sourceTree = "<group>"; };
+		85971C9A1135B13100656F2C /* ANSystemSoundWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSystemSoundWrapper.h; sourceTree = "<group>"; };
+		85971CA31135B1BB00656F2C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Bitspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +92,10 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				8521410310E9117400DFFC64 /* WebKit.framework in Frameworks */,
 				8543B92310EF7D0B00EF5A27 /* Sparkle.framework in Frameworks */,
+				85971C4C1135713E00656F2C /* Carbon.framework in Frameworks */,
+				85971C4D1135713E00656F2C /* IOKit.framework in Frameworks */,
+				85971C4E1135713E00656F2C /* System.framework in Frameworks */,
+				85971CA41135B1BB00656F2C /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +105,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				85971C991135B13100656F2C /* ANSystemSoundWrapper.m */,
+				85971C9A1135B13100656F2C /* ANSystemSoundWrapper.h */,
 				8543B86610EA37BB00EF5A27 /* AppDelegate.h */,
 				8543B86710EA37BB00EF5A27 /* AppDelegate.m */,
 				85971B31112B0CC700656F2C /* BitspaceApplication.h */,
@@ -98,6 +124,10 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85971CA31135B1BB00656F2C /* CoreAudio.framework */,
+				85971C491135713E00656F2C /* Carbon.framework */,
+				85971C4A1135713E00656F2C /* IOKit.framework */,
+				85971C4B1135713E00656F2C /* System.framework */,
 				8543B92210EF7D0B00EF5A27 /* Sparkle.framework */,
 				8521410210E9117400DFFC64 /* WebKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
@@ -126,6 +156,7 @@
 		29B97314FDCFA39411CA2CEA /* bitspace-osx */ = {
 			isa = PBXGroup;
 			children = (
+				85971C501135716700656F2C /* Remote Control */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -164,6 +195,19 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85971C501135716700656F2C /* Remote Control */ = {
+			isa = PBXGroup;
+			children = (
+				85971C511135716700656F2C /* RemoteControl.h */,
+				85971C521135716700656F2C /* RemoteControl.m */,
+				85971C531135716700656F2C /* HIDRemoteControlDevice.h */,
+				85971C541135716700656F2C /* HIDRemoteControlDevice.m */,
+				85971C551135716700656F2C /* AppleRemote.h */,
+				85971C561135716700656F2C /* AppleRemote.m */,
+			);
+			name = "Remote Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +274,10 @@
 				850DEBAA10FF697F004CE08A /* WebViewDelegate.m in Sources */,
 				85971B33112B0CC700656F2C /* BitspaceApplication.m in Sources */,
 				85971C1C1132FC5600656F2C /* WebViewPolicyDelegate.m in Sources */,
+				85971C591135716700656F2C /* RemoteControl.m in Sources */,
+				85971C5A1135716700656F2C /* HIDRemoteControlDevice.m in Sources */,
+				85971C5B1135716700656F2C /* AppleRemote.m in Sources */,
+				85971C9B1135B13100656F2C /* ANSystemSoundWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,8 @@
 #import "AppDelegate.h"
 #import <WebKit/WebView.h>
 #import <WebKit/WebFrame.h>
-#import <IOKit/hidsystem/ev_keymap.h>
+#import "AppleRemote.h"
+#import "ANSystemSoundWrapper.h"
 
 
 @implementation AppDelegate
@@ -26,6 +27,12 @@
 	NSURL *url = [NSURL URLWithString: @"http://bitspace.at/player/"];
 	NSURLRequest *request = [NSURLRequest requestWithURL: url];
 	[mainFrame loadRequest: request];
+	
+	// Enable the remote control
+	AppleRemote* newRemoteControl = [[[AppleRemote alloc] initWithDelegate: self] autorelease];
+	[newRemoteControl setDelegate: self];
+	[self setRemoteControl: newRemoteControl];
+	[remoteControl startListening: self];
 }
 
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication
@@ -50,6 +57,46 @@
 - (void)previousTrack:(id)sender;
 {
 	[webView stringByEvaluatingJavaScriptFromString: @"$('#player').trigger('prev');"];
+}
+
+- (RemoteControl*) remoteControl {
+	return remoteControl;
+}
+
+- (void) setRemoteControl: (RemoteControl*) newControl {
+	[remoteControl autorelease];
+	remoteControl = [newControl retain];
+}
+
+- (void) sendRemoteButtonEvent: (RemoteControlEventIdentifier) event 
+                   pressedDown: (BOOL) pressedDown 
+                 remoteControl: (RemoteControl*) remoteControl 
+{
+    NSLog(@"Button %d pressed down %d", event, pressedDown);
+	if(pressedDown == 0) {
+		switch (event) {
+			case kRemoteButtonPlay:
+				[self togglePlayback: NULL];
+				break;
+			case kRemoteButtonRight:
+				[self nextTrack: NULL];
+				break;
+			case kRemoteButtonLeft:
+				[self previousTrack: NULL];
+				break;
+			case kRemoteButtonPlus:
+				[ANSystemSoundWrapper increaseSystemVolumeBy:.05];
+				break;
+			case kRemoteButtonMinus:
+				[ANSystemSoundWrapper decreaseSystemVolumeBy:.05];
+				break;
+		}
+	}
+}
+
+- (void) dealloc {
+	[remoteControl autorelease];
+	[super dealloc];
 }
 
 @end
