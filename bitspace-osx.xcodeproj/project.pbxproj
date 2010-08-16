@@ -12,10 +12,10 @@
 		850DEBAA10FF697F004CE08A /* WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 850DEBA910FF697F004CE08A /* WebViewDelegate.m */; };
 		8521410310E9117400DFFC64 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521410210E9117400DFFC64 /* WebKit.framework */; };
 		8543B86810EA37BB00EF5A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8543B86710EA37BB00EF5A27 /* AppDelegate.m */; };
-		8543B90310EE992F00EF5A27 /* Bitspace.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8543B90210EE992F00EF5A27 /* Bitspace.icns */; };
 		8543B92310EF7D0B00EF5A27 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8543B92210EF7D0B00EF5A27 /* Sparkle.framework */; };
 		8543B93610EF7D7000EF5A27 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8543B92210EF7D0B00EF5A27 /* Sparkle.framework */; };
 		8543B93D10EF8C7D00EF5A27 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8543B93C10EF8C7D00EF5A27 /* dsa_pub.pem */; };
+		856CB40211D8A3E6008515A1 /* Bitspace.icns in Resources */ = {isa = PBXBuildFile; fileRef = 856CB40111D8A3E6008515A1 /* Bitspace.icns */; };
 		85971B33112B0CC700656F2C /* BitspaceApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971B32112B0CC700656F2C /* BitspaceApplication.m */; };
 		85971C1C1132FC5600656F2C /* WebViewPolicyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85971C1B1132FC5600656F2C /* WebViewPolicyDelegate.m */; };
 		85971C4C1135713E00656F2C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85971C491135713E00656F2C /* Carbon.framework */; };
@@ -61,9 +61,9 @@
 		8543B86610EA37BB00EF5A27 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8543B86710EA37BB00EF5A27 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8543B88B10EA45CD00EF5A27 /* Bitspace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bitspace-Info.plist"; sourceTree = "<group>"; };
-		8543B90210EE992F00EF5A27 /* Bitspace.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Bitspace.icns; sourceTree = "<group>"; };
 		8543B92210EF7D0B00EF5A27 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		8543B93C10EF8C7D00EF5A27 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		856CB40111D8A3E6008515A1 /* Bitspace.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Bitspace.icns; sourceTree = "<group>"; };
 		85971B31112B0CC700656F2C /* BitspaceApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitspaceApplication.h; sourceTree = "<group>"; };
 		85971B32112B0CC700656F2C /* BitspaceApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitspaceApplication.m; sourceTree = "<group>"; };
 		85971C1A1132FC5600656F2C /* WebViewPolicyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewPolicyDelegate.h; sourceTree = "<group>"; };
@@ -179,8 +179,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				856CB40111D8A3E6008515A1 /* Bitspace.icns */,
 				8543B93C10EF8C7D00EF5A27 /* dsa_pub.pem */,
-				8543B90210EE992F00EF5A27 /* Bitspace.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -256,8 +256,8 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				8543B90310EE992F00EF5A27 /* Bitspace.icns in Resources */,
 				8543B93D10EF8C7D00EF5A27 /* dsa_pub.pem in Resources */,
+				856CB40211D8A3E6008515A1 /* Bitspace.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
